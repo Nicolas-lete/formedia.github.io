@@ -1,0 +1,67 @@
+// _mediaqueries.scss
+// ==============
+
+@media (min-width: 768px) {
+
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: 0;
+    }
+
+    .navbar-default {
+
+        .navbar-brand {
+            float: left;
+
+            > img {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .main-title {
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 22px;
+        padding-bottom: 10px;
+    }
+
+    body {
+
+        input ~ nav {
+            top: 0; left: 0;
+        }
+    }
+
+    body input ~ nav > ul > li > a {
+        font-size: 26px;
+        padding: 10px;
+    }
+
+    address {
+        background: #000000;
+        border-radius: 4px;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px;
+        position: absolute;
+            top: 50px; left: 10px; right: auto; 
+        min-width: 360px;
+    }
+
+    body input ~ nav > ul {
+        top: 12%;
+    }
+
+    form .form-control {
+        margin-bottom: 0;
+    }
+
+    form .form-group {
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,40 @@
+// _base.scss
+// ==============
+
+// Document primary font
+html, body {
+    font-family: 'Catamaran', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+// No padding & No margin
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+// Placeholder styles
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:   #1c224e;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #1c224e;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #1c224e;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #1c224e;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #1c224e;
+}
+::placeholder { /* Most modern browsers support this now. */
+   color:    #1c224e;
+}

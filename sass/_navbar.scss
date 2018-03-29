@@ -1,0 +1,53 @@
+// _navbar.scss
+// ==============
+
+.navbar-default {
+    background: #1e1e28;
+    border-color: transparent;
+    border-radius: 0;
+    margin-bottom: 0;
+    line-height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+
+    .navbar-brand, .navbar-right {
+        display: block;
+        height: auto;
+        position: relative;
+        z-index: 4;
+    }
+
+    .navbar-right {
+        float: none;
+        text-align: center;
+
+        >li {
+            display: inline-block;
+        }
+    }
+
+    .navbar-brand {
+        float: none;
+
+        > img {
+            margin: 0 auto;
+        }
+    }
+
+    .navbar-right li a {
+        line-height: inherit;
+    }
+
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-instagram {
+        font-size: 22px;
+        color: white;
+    }
+}
+
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 0px;      
+}   
