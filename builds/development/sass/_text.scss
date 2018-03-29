@@ -1,0 +1,37 @@
+// _text.scss
+// =================
+
+.main-title {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+    position: absolute;
+        top: 50%; left: 50%;
+    text-align: center;
+    transform: translate(-50%, -60%);
+
+    span {
+        display: block;
+        text-transform: uppercase;
+    }
+}
+
+.secondary-title {
+    color: #1c224e;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 20px 0 30px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    &::after {
+        content: "";
+        display: block;
+        border-bottom: solid 2px #211915;
+        margin: 0 auto;
+        line-height: 12px;
+        width: 100px;
+    }
+}

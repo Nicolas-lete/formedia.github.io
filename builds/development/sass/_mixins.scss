@@ -1,0 +1,31 @@
+// _mixins.scss
+// =================
+
+/*** Image Styles: Begin ***/
+@mixin border($px) {
+  border: solid $px #00468c;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+/*** Image Styles: End ***/
+
+/*** Flexbox: Begin ***/
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-box: wrap;
+  -moz-box: wrap;
+  -ms-flexbox: wrap;
+  -webkit-flex: wrap;
+  flex-wrap: wrap;
+}
+/*** Flexbox: End ***/
